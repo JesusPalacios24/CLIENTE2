@@ -1,0 +1,14 @@
+                  Integrantes:
+----------------------------------------------
+|  Andrea Morales Chávez 21550747            |
+|  Jesús Emanuel Palacios Mendias 21550764   |
+|  Adrián Fernando Quintana Venegas 21550763 |
+|  Karen Adriana Mendoza Aragón C20061169    |
+|					     |
+----------------------------------------------
+
+		     Nota:
+*********************************************
+*    Nuestro proyecto se ejecuta desde el   *
+*    CLienteRMIFalla, en el main INICIO     *
+*********************************************

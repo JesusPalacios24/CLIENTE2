@@ -13,7 +13,13 @@ public class ClienteRMIFalla {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try {
+      
+        cliente c = new cliente();
+        
+        c.setVisible(true);
+        
+        
+        /* try {
             Registry registro = LocateRegistry.getRegistry("127.0.0.1",1025);
             InterfazConvertidor objRemoto = (InterfazConvertidor) registro.lookup("convi");
             System.out.println("La suma es: "+objRemoto.s_suma(25,5));
@@ -23,6 +29,7 @@ public class ClienteRMIFalla {
         } catch (Exception e) {
             System.out.println("Error"+ e.getMessage());
         }
+        */
     }
     
 }

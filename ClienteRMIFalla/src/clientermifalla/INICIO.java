@@ -3,18 +3,34 @@ package clientermifalla;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import servrmifalla.InterfazConvertidor;
+import servrmifalla.ServRMIFalla;
 /**
  *
- * @author jpala
+ * @author 
+ 
+ Andrea Morales Chávez 21550747
+Jesús Emanuel Palacios Mendias 21550764
+Adrián Fernando Quintana Venegas 21550763
+Karen Adriana Mendoza Aragón C20061169
+
+ * 
+ * 
  */
-public class ClienteRMIFalla {
+public class INICIO {
 
     /**
-     * @param args the command line arguments
+Andrea Morales Chávez 21550747
+Jesús Emanuel Palacios Mendias 21550764
+Adrián Fernando Quintana Venegas 21550763
+Carmen Alejandra Ortega Solís 21550751
+Karen Adriana Mendoza Aragón C20061169
+
      */
     public static void main(String[] args) {
+        
+        ServRMIFalla.main(args);
       
-        cliente c = new cliente();
+        ClienteFrame c = new ClienteFrame();
         
         c.setVisible(true);
         

@@ -13,12 +13,17 @@ public class ServRMIFalla {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+            System.out.println("ESTOY EN SERVI");
         try {
+           
             Registry elRegistro = LocateRegistry.createRegistry(1025);
             Convertidor laInstancia = new Convertidor();
             elRegistro.rebind("convi", laInstancia);
             System.out.println("Objeto remoto listo para usarse ...");
+            
+            
         } catch (Exception e) {
+            e.getMessage();
         }
     }
     
